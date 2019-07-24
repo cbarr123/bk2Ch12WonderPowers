@@ -1,8 +1,18 @@
 document.querySelector("#activate-flight").addEventListener("click", function () {
-
+    flightHandlerFunction()
+})
+document.querySelector("#activate-mindreading").addEventListener("click", function () {
+    mindReaderFunction()
 })
 
-function flightHandlerFunction (params) {
-    //remove existing class
-    //add new class
+
+
+
+function flightHandlerFunction () {
+    document.querySelector("#flight").className = "power enabled"
 }
+function mindReaderFunction () {
+    document.querySelector("#mindreading").className = "power enabled"
+}
+
+
